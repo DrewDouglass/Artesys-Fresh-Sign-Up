@@ -1,0 +1,126 @@
+body {
+    color: #384e47;
+    font-family: 'PT Sans', sans-serif !important;
+    background-color: #dfeaed;
+}
+
+.flex {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -moz-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.hidden {
+    display: none;
+}
+
+.wow {
+    visibility: hidden;
+}
+
+/***** HEADER *****/
+body header {
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #fff;
+    border-bottom: 10px solid #3cb878;
+}
+
+body header .navbar-brand {
+    padding-bottom: 20px;
+}
+
+body header nav {
+    font-size: 14px;
+}
+
+body header nav a.nav-link {
+    color: #777 !important;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
+
+body header nav a.nav-link:hover {
+    color: #000 !important;
+}
+
+a {
+    color: #3cb878;
+    text-decoration: underline;
+    font-weight: bold;
+    transition: all .5s;
+}
+
+a:hover {
+    color: #384e47;
+}
+
+aside.intro {
+    margin-top: 2rem;
+}
+
+aside.intro h1 {
+    margin-bottom: 0;
+}
+
+section.signup-box {
+    background-color: #f0f5f7;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+div.validate-error {
+    color: red;
+}
+
+form.get-started {
+    text-align: left;
+    width: 400px;
+    margin: 0 auto;
+}
+
+form.get-started label {
+    display: block;
+}
+
+input {
+    font-size: 1.3rem;
+}
+
+input.birth {
+    width: 40px;
+}
+
+input.birth.year {
+    width: 100px;
+}
+
+/*#msform .action-button:hover, #msform .action-button:focus {
+	box-shadow: 0 0 0 2px white, 0 0 0 3px $dark-green;
+}*/
+/* Headings */
+h3[data-toggle='tooltip'] {
+    position: relative;
+    display: inline-block;
+    color: #035a77;
+}
+
+h3[data-toggle='tooltip']:after {
+    content: "\f059";
+    position: absolute;
+    top: 0;
+    right: -25px;
+    font-family: FontAwesome;
+    font-style: normal;
+    color: #00ad96;
+}
