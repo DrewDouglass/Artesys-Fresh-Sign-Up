@@ -97,6 +97,18 @@ input {
     font-size: 1.3rem;
 }
 
+input.standard {
+    width: 36%;
+}
+
+input[name='first-name'], input[name='last-name'] {
+    width: 55%;
+}
+
+input[name='last-name'] {
+    margin-left: 3px;
+}
+
 input.birth {
     width: 40px;
 }
