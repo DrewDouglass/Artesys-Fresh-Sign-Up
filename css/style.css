@@ -54,6 +54,10 @@ body header nav a.nav-link:hover {
     color: #000 !important;
 }
 
+.center {
+    text-align: center;
+}
+
 a {
     color: #3cb878;
     text-decoration: underline;
@@ -91,6 +95,13 @@ form.get-started {
 
 form.get-started label {
     display: block;
+    font-weight: bold;
+}
+
+label.center p {
+    width: 245px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 input {
@@ -115,6 +126,19 @@ input.birth {
 
 input.birth.year {
     width: 100px;
+}
+
+input[type='submit'] {
+    -webkit-appearance: none;
+    outline: 0;
+    border: none;
+    background-color: #bdd73c;
+    color: #555;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 0.5rem 3rem;
+    cursor: pointer;
 }
 
 /*#msform .action-button:hover, #msform .action-button:focus {
