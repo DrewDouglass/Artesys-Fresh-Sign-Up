@@ -58,6 +58,15 @@ body header nav a.nav-link:hover {
     text-align: center;
 }
 
+section#capture-info, section#signup-issue {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+section#signup-issue p {
+    margin-bottom: 0;
+}
+
 a {
     color: #3cb878;
     text-decoration: underline;
@@ -73,8 +82,29 @@ aside.intro {
     margin-top: 2rem;
 }
 
+a#signup-contact {
+    background-color: #004a80;
+    color: #fff;
+    text-transform: uppercase;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 0.5rem 3rem;
+    cursor: pointer;
+}
+
+a#signup-contact {
+    margin-top: 1rem;
+}
+
+aside.intro {
+    margin-bottom: 2rem;
+}
+
 aside.intro h1 {
     margin-bottom: 0;
+    font-weight: bold;
 }
 
 section.signup-box {
