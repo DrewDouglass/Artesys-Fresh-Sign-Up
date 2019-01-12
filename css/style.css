@@ -54,6 +54,12 @@ body header nav a.nav-link:hover {
     color: #000 !important;
 }
 
+@media (min-width: 1200px) {
+    .container {
+        max-width: 900px;
+    }
+}
+
 .center {
     text-align: center;
 }
@@ -98,6 +104,11 @@ a#signup-contact {
     margin-top: 1rem;
 }
 
+label {
+    margin-bottom: 1rem;
+    font-size: 21px;
+}
+
 aside.intro {
     margin-bottom: 2rem;
 }
@@ -132,6 +143,8 @@ label.center p {
     width: 245px;
     margin-left: auto;
     margin-right: auto;
+    font-size: 12px;
+    margin-top: 1rem;
 }
 
 input {
@@ -143,7 +156,7 @@ input.standard {
 }
 
 input[name='first-name'], input[name='last-name'] {
-    width: 55%;
+    width: 62%;
 }
 
 input[name='last-name'] {
@@ -155,7 +168,7 @@ input.birth {
 }
 
 input.birth.year {
-    width: 100px;
+    width: 110px;
 }
 
 input[type='submit'] {
@@ -169,6 +182,7 @@ input[type='submit'] {
     font-size: 1rem;
     padding: 0.5rem 3rem;
     cursor: pointer;
+    margin-top: 1rem;
 }
 
 /*#msform .action-button:hover, #msform .action-button:focus {
