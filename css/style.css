@@ -151,6 +151,14 @@ input {
     font-size: 1.3rem;
 }
 
+input.signup-input {
+    -webkit-appearance: none;
+    appearance: none;
+    border: none;
+    outline: 0;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
 input.standard {
     width: 36%;
 }
